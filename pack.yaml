@@ -5,3 +5,6 @@ description: VDX automation pack.
 version: 0.1.4
 author: GSLAB
 email: yugendra.khonde@gslab.com
+python_versions:
+  # upstream pynos library has been abandoned. It is py2 only.
+  - "2"
